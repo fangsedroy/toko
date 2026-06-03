@@ -45,9 +45,9 @@
    <h2>Katalog Produk (Real-time DB)</h2>
     <div class="produk-container">
         <%
-            String url = "jdbc:mysql://localhost:3306/db_toko"; 
-            String user = "root";
-            String pass = "";
+           String url = "jdbc:mysql://bwx6zosj9ppnb4keysp2-mysql.services.clever-cloud.com:3306/bwx6zosj9ppnb4keysp2"; 
+String user = "us9iqjz6tuw5mbo6";
+String pass = "hZiTd97j1NX28bjikNVQ"; // Jalankan tips di bawah untuk melihat password aslimu
             
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");

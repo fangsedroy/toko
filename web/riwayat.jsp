@@ -38,7 +38,7 @@
                     
                     try {
                         Class.forName("com.mysql.cj.jdbc.Driver");
-                        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/db_toko", user, pass);
+                       Connection conn = DriverManager.getConnection("jdbc:mysql://bwx6zosj9ppnb4keysp2-mysql.services.clever-cloud.com:3306/bwx6zosj9ppnb4keysp2", "us9iqjz6tuw5mbo6", "hZiTd97j1NX28bjikNVQ");
                         Statement stmt = conn.createStatement();
                         ResultSet rs = stmt.executeQuery("SELECT * FROM transaksi ORDER BY tanggal_transaksi DESC");
                         
